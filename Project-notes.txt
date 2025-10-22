@@ -1,0 +1,38 @@
+Redux:  is a open-source javascript library for managing application state.
+
+Redux toolkit: Diff Between Redux and Redux toolkit:
+=================================================
+
+Redux toolkit is mainly created to solve three major issue with Redux
+
+Configuring a redux store is too complicated : Redux toolkit offer  configureStore function to
+manage/simply the configuration
+
+Needs to add lots of packages: Redux toolkit reduces the need to add multiple packages to build
+large scale application
+
+Too much base Boilerplate code: 
+
+
+Important terms used in Redux toolkit
+=================================
+
+store
+CreatSlice
+name
+initialState
+reducers
+extraReducers
+createReducers
+createAction
+createAsyncThunk
+createEntityAdAPTER
+createSelector
+
+
+redux -- not used by companies
+redux toolit  -> advanced
+
+React Query -> React query
+
+

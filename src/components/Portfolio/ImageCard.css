@@ -1,0 +1,48 @@
+.imageCard{
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 15px;
+  position: relative;
+  display: inline-block; 
+  width: 90%; 
+  margin: 5px; 
+}
+
+.img-style{
+    width: 100%;
+    height: max-content;
+}
+
+.img-style:hover{
+  transform: scale(1.1);
+  transition: ease-in 0.4s;
+  cursor: pointer;
+}
+
+.image-overlay {
+  position: absolute;
+  bottom: 0; 
+  left: 0;
+  width: 100%; 
+  height: 20%; 
+  color: #fff;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.imageCard:hover .image-overlay {
+  opacity: 1; 
+}
+
+.image-overlay p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.imageCard-container {
+  position: relative;  
+}

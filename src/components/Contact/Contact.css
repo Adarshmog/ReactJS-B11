@@ -1,0 +1,134 @@
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+.sectiontitle {
+  padding-bottom: 40px;
+}
+.sectiontitle .contact-title {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 0 0 5px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  font-family: "Poppins", sans-serif;
+}
+.sectiontitle h2::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: #fd9042;
+  margin: 4px 10px;
+}
+.sectiontitle .contact-us {
+  margin: 0;
+  margin: 0;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #2a2c39;
+}
+.contact .info {
+  width: 100%;
+  background: #fff;
+}
+.contact .info i {
+  font-size: 20px;
+  color: #ef6603;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #ffecde;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+.contact .info .infodetails {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #2a2c39;
+}
+.contact .info .infoaddress {
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #555974;
+  margin-top: 0px;
+}
+.contact .info .email,
+.contact .info .phone {
+  margin-top: 40px;
+}
+.contact .info .email:hover i,
+.contact .info .address:hover i,
+.contact .info .phone:hover i {
+  background: #ef6603;
+  color: #fff;
+}
+.contact .form-details {
+  width: 100%;
+  background: #fff;
+}
+.contact .form-details .form-group {
+  padding-bottom: 8px;
+}
+.contact .form-details input,
+.contact .form-details textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+}
+.contact .form-details input {
+  height: 44px;
+}
+.contact .form-details textarea {
+  padding: 10px 12px;
+}
+textarea{
+  height: 126px;
+}
+.contact .form-details button {
+  background: #ef6603;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+  margin-top: 15px;
+}
+.contact .form-details button:hover {
+  background: #fc8129;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5px;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #dee2e6;
+}
+.contact .form-details .error {
+  color: #ed3c0d;
+  text-align: left;
+  font-weight: 600px;
+  font-size: medium;
+  margin-top: 0px;
+}  
+.contact .form-details .message {
+  color: #18d26e;
+  text-align: center;
+  font-weight: 600px;
+}

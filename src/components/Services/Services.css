@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;1,500&family=Poppins:wght@300;400;500;600;700;800&family=Raleway:ital,wght@0,600;1,600&display=swap');
+
+:root {
+    --heading-font: "Poppins", sans-serif;
+    --title-font: "Raleway", sans-serif;
+    --desc-font: "Open Sans", sans-serif;
+}
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#services {
+    padding: 60px 0;
+}
+
+.services-header .services-title {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
+}
+
+.services-header .services-title::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #fd9042;
+    margin: 4px 10px;
+}
+
+.services-header .services-subtitle {
+    margin: 0;
+    padding-bottom: 40px;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #2a2c39;
+}
+
+.service-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    box-shadow: 0 1px 16px rgba(0, 0, 0, 0.15);
+}
+
+.sevice-img {
+    width: 100%;
+    height: auto;
+}
+
+.service-info .course-title {
+    margin: 0;
+    padding: 25px 15px 15px 15px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #00539C;
+    font-family: "Raleway", sans-serif;
+}
+
+.service-info .course-desc {
+    margin: 0;
+    padding: 0 25px 25px 15px;
+    font-size: 14px;
+    color: #6e6e6e;
+    font-family: "Open Sans", sans-serif;
+}
+
+a.btn-learn {
+    width: 115px;
+    height: 41px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 30px 15px;
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #ef6603;
+    ;
+    font-family: "Raleway", sans-serif;
+    transition: .3s;
+}
+
+a.btn-learn:hover {
+    background-color: #fc8129;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .card-container {
+        display: none;
+    }
+}
