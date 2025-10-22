@@ -12,7 +12,7 @@ RUN npm install
 COPY . .
 RUN npm run build
 
-# ---------- Stage 2: Serve with Nginx ----------
+#------- Stage 2: Serve with Nginx ----------
 FROM nginx:alpine
 
 # Copy React build files from the previous stage
